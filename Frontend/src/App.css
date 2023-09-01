@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: url('background.jpeg') no-repeat;
+  background-size: cover;
+}
+
+
+/* CSS code for CustomerHomePage component */
+/*h1, h2 {
+  color: red;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: blue;  //Change this to the desired color 
+}
+
+
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #0077cc;
+  color: #000;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+*/

@@ -1,0 +1,59 @@
+.product-page{
+    margin: 80px auto;
+  }
+  
+  table {
+    width: 1000px;
+    height: 500px;
+    border-collapse: collapse;
+    background: #fff;
+  }
+  
+  th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #418c9f;
+    font-weight: normal;
+    border: 1px solid #ddd;
+  }
+  
+  td {
+    padding: 10px 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99 ;
+  }
+
+  .navigation .btnAddProduct-popup{
+    width: 200px;
+    height: 50px;
+    background: #418c9f;
+    outline: none;
+    border-radius: 6px ;
+    cursor:pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+  }
+  
+  .btnAddProduct-popup:hover {
+    background: #fff;
+    color: #162938;
+
+
+
+}

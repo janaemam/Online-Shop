@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 20px,100px;
+    
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    font-family:sans-serif;
+    color: #fff;
+    user-select: none;
+    margin-left: 550px;
+    
+}
+
+
+
+ .btnLogin-popup{
+
+    width: 130px;
+    height: 50px;
+    background: #418c9f;
+    
+    outline: none;
+    border-radius: 6px ;
+    cursor:pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+
+
+}
+
+.btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+
+
+
+}
+.btnAdmin-popup:hover{
+    background: #fff;
+    color: #162938;
+
+
+
+}
+
+.btnAdmin-popup{
+    width: 230px;
+    height: 50px;
+    background: #418c9f;
+    
+    outline: none;
+    border-radius: 6px ;
+    cursor:pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+
+}
